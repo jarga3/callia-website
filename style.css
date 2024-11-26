@@ -385,13 +385,23 @@
 }
 
 .main__img--card {
-    margin: 10px;
-    height: 500px;
-    width: 500px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  margin: 10px;
+  height: 500px;
+  width: 500px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  align-items: center;
+  position: relative; 
+}
+
+.clinic {
+  height: 450px;
+  width: 450px;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain; 
 }
