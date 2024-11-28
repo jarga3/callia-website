@@ -7,18 +7,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="index.html#home" id="navbar__logo">CALLIA INNOVATIONS</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="index.html#about" class="navbar__links" id="about-page">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="index.html#why" class="navbar__links" id="why-page">Why Callia?</a>
+            </li>
+            <li class="navbar__btn">
+              <a href="index.html#sign-up" class="button" id="signup">Business Sign-Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Contact Us Form Section -->
     <div class="contact__container">
         <form>
             <h1>Contact <span>Us</span></h1>
             <input type="text" id="name" placeholder="Name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="mobile" id="mobile" placeholder="Phone Number" required>
+            <input type="text" id="business-name" placeholder="Business Name" required>
+            <input type="email" id="email" placeholder="Email">
             <input type="text" id="subject" placeholder="Subject" required>
-            <textarea placeholder="Your Message" required>
-
-            </textarea>
-                <input type="submit" value="Submit" id="button">
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit" id="button">
         </form>
     </div>
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Legal</h2>
+              <a href="comingsoon.html">Terms of Service</a>
+              <a href="comingsoon.html">Privacy Policy</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Keep in Touch</h2>
+              <a href="contact.html">Contact Us</a>
+              <a href="comingsoon.html">Join Our Mailing List</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Other</h2>
+              <a href="comingsoon.html">FAQ</a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <script src="app.js"></script>
 </body>
 </html>
